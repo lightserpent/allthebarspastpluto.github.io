@@ -67,33 +67,11 @@ and open the template in the editor.
   <p>Oslo is the capital of Norway.</p>
 </div>
 
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>   
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+            <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+            <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>   
+            <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+            <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 
-<script>
-function openCity(cityName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(cityName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-    </head>
-    <body style="background-color: black">
-        <button onclick="testAlert()"> DON'T CLICK THIS </button>
-         <p style="color: white"> All The Bars Past Pluto Podcast: </p>
-        <script src="myscript.js"></script>
         <script>console.log ("passed all scripts");</script>
         <img src="images/mainimageEdited.png" alt="mainimage">
     </body>
