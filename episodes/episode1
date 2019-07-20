@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title></title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      //oof
+      <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div>
+            <a class="navbar-brand" href="#">
+                <b>
+                    <i>All The Cast Past Pluto</i>
+                </b>
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="castpage.html">Cast</a>
+                </li>
+                
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Episodes
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="episode1.html">Episode 1</a>
+                        </li>
+                        <li>
+                            <a href="episode2.html">Episode 2</a>
+                        </li>
+                        <li>
+                            <a href="episode3.html">Episode 3</a>
+                        </li>
+                    </ul>
+              </li>
+            </ul>
+        </div>
+    </nav>
+      <div class="parallax">
+        <div class="container">
+            <div class="row-sm-4" style="border-style:solid;border-color:white">
+              <h1>H1</h1>
+            </div>
+              <div class="row-sm-12" style="border-style:solid;border-color:white">
+                <p style="text-align:center">
+                  <ul>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                  </ul>
+                </p> 
+              </div>
+              <div class="row-sm-4" style="border-style:solid;border-color:white">
+              <h1>H1</h1>
+            </div>
+              <div class="row-sm-12" style="border-style:solid;border-color:white">
+                <p style="text-align:center">
+                  <ul>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                  </ul>
+                </p> 
+              </div>
+                <div class="col-sm-parallax"></div>
+            <div class="row-sm-4" style="border-style:solid;border-color:white">
+              <h1>H1</h1>
+            </div>
+              <div class="row-sm-12" style="border-style:solid;border-color:white">
+                <p style="text-align:center">
+                  <ul>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                  </ul>
+                </p> 
+              </div>
+            </div>
+        </div>
+    </div>
+      
+    </body>
+  </html>
