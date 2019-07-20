@@ -26,7 +26,7 @@
                 </li>
                 
                 <li class="dropdown active" id="episodeNavTitle">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" onclick="document.getElementById('episodeNavTitle').class="dropdown">Episodes
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Episodes
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
